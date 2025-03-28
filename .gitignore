@@ -1,0 +1,13 @@
+datasources.xlsx
+schema_map.xlsx
+venv/
+*.venv
+*.pyc
+*.pyo
+.env/
+.DS_Store
+Thumbs.db
+/backup
+/old
+dataSources.xml
+datasources.local.xml
