@@ -39,7 +39,7 @@ def update_introspection_scope(root, mappings):
             ET.SubElement(db_node, "node", kind="schema", name=schema_name)
 
 
-
+#does not account for multiple data sources
 def delete_all_introspection_scopes(root):
     for data_source in root.findall(".//data-source"):
         scopes = data_source.findall("introspection-scope")
